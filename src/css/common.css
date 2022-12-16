@@ -30,6 +30,28 @@ img {
   border-radius: 10px;
 }
 
+
+
  .color-switcher-button-stop {
   margin-left: 15px;
+ }
+
+ .timer {
+display: flex;
+
+ }
+
+
+ .field:first-child{
+  margin-right: 15px;
+ }
+
+ .label{
+  font-size: medium;
+  font-weight: 500;
+ }
+
+ .value{
+  font-size: large;
+  font-weight: 600;
  }
