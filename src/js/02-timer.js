@@ -73,7 +73,7 @@ function onStartTimer() {
     const time = convertMs(deltaDate);
     if (deltaDate < 100) {
       clearInterval(timer);
-      timer.inputDate.disabled = false;
+      return;
     }
     updateTime(time);
   }, 1000);

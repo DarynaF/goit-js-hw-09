@@ -17,7 +17,7 @@ const refs = {
     timer = setInterval(() => {
       refs.bodyEl.style.backgroundColor = getRandomHexColor();
 
-    }, 500)
+    }, 1000)
   }
 
   function onStopClick() {
